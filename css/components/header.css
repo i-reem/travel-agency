@@ -1,0 +1,84 @@
+.header{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    background-color: var(--color-transparent-white);
+    z-index: 100;
+}
+
+.header .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav .logo{
+    z-index: 10;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -1px;
+    color: var(--color-primary);
+    transition: color var(--time-primary) ease-in-out; 
+}
+
+.nav .logo:hover{
+    color: var(--color-secondary); 
+}
+
+.nav .nav-leftside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    position: relative;
+}
+
+.nav .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu .menu-btn{
+    display: none;
+}
+
+.hamburg-icon{
+    width: 1.5rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+}
+
+.start, .mid, .end{
+    width: 100%;
+    height: 2px;
+    border-radius: 1px;
+    background-color: var(--color-black);
+    transition: all var(--time-secondary) ease-in-out;
+}
+
+.menu li{
+    padding: 1rem 0.5rem;
+}
+
+.menu a{
+    display: inline-block;
+    color: var(--color-primary);   
+    transition: color, transform var(--time-primary) ease-in-out; 
+}
+.menu a:hover{
+    color: var(--color-secondary);
+    transform: translateY(2px);
+}
+.menu .menu-btn{
+    color: var(--color-grey);   
+}
+
+.hamburg-icon{
+  cursor: pointer;
+  display: none;
+}

@@ -1,0 +1,81 @@
+.footer{
+    background-color: var(--color-primary);
+    padding: 4rem 2rem;
+    color: var(--color-grey);
+}
+
+.footer .footer-wrapper{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   gap: 2rem;
+}
+
+.footer-wrapper .footer-links-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr) 2fr;
+    gap: 3rem;
+}
+
+.footer-wrapper h3{
+    color: var(--color-grey);
+    margin-bottom: 1rem;
+}
+.footer-wrapper .footer-links a{
+    color: var(--color-black);
+    transition: opacity var(--time-primary) ease-in-out;
+}
+
+.footer-wrapper .footer-links a:hover{
+    opacity: 0.5;
+}
+
+.form-newsletter{
+    position: relative;
+    margin-block: 1rem;
+}
+.input-newsletter{
+    background-color: transparent;
+    outline: none;
+    border: 1px solid var(--color-grey);
+    padding: 0.8rem;
+    border-radius: 16px;
+    width: 100%;
+}
+.input-newsletter::placeholder{
+    color: var(--color-grey);
+    font-family: "Noto Sans Arabic", Arial, Helvetica, sans-serif;
+}
+
+.btn-newsletter{
+    position: absolute;
+    left: 4%;
+    bottom: 15%;
+    border-radius: 16px;
+    border: 1px solid var(--color-grey);
+    padding-inline: 0.5rem;
+    cursor: pointer;
+    font-family: "Noto Sans Arabic", Arial, Helvetica, sans-serif;
+}
+
+.social-links{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.social-links i{
+    background-color: var(--color-grey);
+    border: 1px solid var(--color-grey);
+    color: var(--color-secondary);
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: opacity var(--time-primary) ease-in-out;
+}
+
+.social-links i:hover{
+    background-color: transparent;
+    color: var(--color-grey);
+}

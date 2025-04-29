@@ -1,0 +1,43 @@
+.btn, .menu-btn{
+    display: inline-block;
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    border-radius: 32px;
+    padding: 0.2rem 1.5rem;
+    color: var(--color-grey);
+    transition: background-color, border var(--time-primary-hover) ease-in-out; 
+}
+
+.btn:hover, .menu-btn:hover{
+    background-color: var(--color-secondary);
+    border: 1px solid var(--color-secondary);
+}
+
+.btn-secondary{
+    display: inline-block;
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);
+    border-radius: 32px;
+    padding-inline: 3rem;
+    transition: color, border, transform var(--time-primary-hover) ease-in-out; 
+}
+.btn-secondary:hover{
+    color: var(--color-secondary);
+    border: 1px solid var(--color-secondary);
+    transform: translateY(-2px);
+}
+
+.btn-newsletter{
+    display: inline-block;
+    background-color: var(--color-grey);
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);
+    border-radius: 32px;
+    transition: background-color, border-color, color var(--time-primary-hover) ease-in-out; 
+}
+
+.btn-newsletter:hover{
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+  color: var(--color-grey);
+}
