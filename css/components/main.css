@@ -89,7 +89,6 @@ margin-bottom: -1.25rem;
     font-size: var(--fs-p-2);
     font-weight: 800;
 }
-
 /* End Best Location*/
 
 /* Start how work */
@@ -181,7 +180,6 @@ margin-bottom: -1.25rem;
 .how-work-wrapper .how-work-image-wrapper img:hover{
     transform: scale(1.1);
 }
-
 /* End how work */
 
 /* Start package */
@@ -257,7 +255,6 @@ margin-bottom: -1.25rem;
     border-radius: 8px;
     padding-inline: 0.5rem;
 }
-
 /* End package */
 
 /* Start blog */
